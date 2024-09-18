@@ -30,7 +30,7 @@ dependencies = [
   "pandas~=2.2.0",
   "XlsxWriter~=3.2.0",
   "dendromatics~=0.5.0",
-  "pydantic~=1.10.15",
+  "pydantic>=1.10.15",
   "pyqt5~=5.15.0"
 ]
 dynamic = ["version"]
