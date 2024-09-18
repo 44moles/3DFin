@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Optional
 
 import laspy
-from pydantic import (
+from pydantic.v1 import (
     BaseModel,
     DirectoryPath,
     Field,
