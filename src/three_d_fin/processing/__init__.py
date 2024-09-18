@@ -4,7 +4,7 @@ import os
 import sys
 from pathlib import Path
 
-from pydantic import ValidationError
+from pydantic.v1 import ValidationError
 
 
 def launch_application() -> int:
